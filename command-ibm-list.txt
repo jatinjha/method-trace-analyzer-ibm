@@ -1,0 +1,4 @@
+1) java -Xtrace:none -Xtrace:methods=Example,trigger=method{Example,jstacktrace},maximal=mt,output=ExampleOut.trc Example
+
+
+2)  java com.ibm.jvm.format.TraceFormat ExampleOut.trc ExampleTrace.log

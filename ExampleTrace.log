@@ -1,0 +1,76 @@
+                Trace Summary
+
+Service Level :
+        JRE 11 Windows 10 amd64-64 (build 11.0.3+7)
+
+JVM Start-up Params :
+-Xoptionsfile=C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-openj9\lib\options.default
+-Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/PrimitiveHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple
+-Xjcl:jclse29
+-Dcom.ibm.oti.vm.bootstrap.library.path=C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-openj9\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-openj9\bin
+-Dsun.boot.library.path=C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-openj9\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-openj9\bin
+-Djava.library.path=C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-openj9\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-openj9\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/AdoptOpenJDK/jdk-11.0.3.7-openj9/bin/j9vm;C:/Program Files/AdoptOpenJDK/jdk-11.0.3.7-openj9/bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-openj9\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\DELL\AppData\Local\Programs\Python\Python36\;C:\Users\DELL\AppData\Local\Programs\Python\Launcher\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;D:\Octave Program\machine-learning-ex1\ex1;C:\adb;;C:\Users\DELL\adb;C:\Program Files\heroku\bin;G:\eclipse-jee-2019-03-R-win32-x86_64\eclipse;;.
+-Djava.home=C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-openj9
+-Duser.dir=C:\Users\DELL\eclipse-workspace\Demo
+-Xtrace:none
+-Xtrace:methods=Example,trigger=method{Example,jstacktrace},maximal=mt,output=ExampleOut.trc
+-Djava.class.path=.
+-Dsun.java.command=Example
+-Dsun.java.launcher=SUN_STANDARD
+
+
+Activation Info :
+        FORMAT=C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-openj9\lib;.
+        MAXIMAL=all{level1}
+        EXCEPTION=j9mm{gclogger}
+        MAXIMAL=all{level2}
+        none
+        methods=Example
+        trigger={method{Example,jstacktrace}}
+        maximal=mt
+        output=ExampleOut.trc
+
+Sys Processor Info :
+        Arch family AMD64
+        Processor Sub-type Opteron
+        Num Processors 8
+        Big Endian false
+        Word size 64
+        Using Trace Counter J9 timer
+
+Active Threads :
+        0x19a00  main
+
+JVM started      : 18:50:33.337000000
+
+Last buffer write: 18:50:33.733054014
+
+First tracepoint:  18:50:33.723135036
+
+Last tracepoint :  18:50:33.733054014
+
+
+                Trace Formatted Data 
+
+J9 timer(UTC)        ThreadID               TP id     Type        TraceEntry 
+18:50:33.723146715            *0x19a00         mt.3    Entry      >Example.main([Ljava/lang/String;)V bytecode static method
+18:50:33.723147810             0x19a00  j9trc_aux.0    Event       jstacktrace:
+18:50:33.723153649             0x19a00  j9trc_aux.1    Event       [1] Example.main (Example.java:23)
+18:50:33.723158394             0x19a00  j9trc_aux.0    Event       jstacktrace:
+18:50:33.723158394             0x19a00         mt.0    Entry      >Example.calculateSum(II)I bytecode method, this = 0xfff867f0
+18:50:33.723159489             0x19a00  j9trc_aux.1    Event       [1] Example.calculateSum (Example.java:9)
+18:50:33.723160218             0x19a00  j9trc_aux.1    Event       [2] Example.main (Example.java:24)
+18:50:33.723160583             0x19a00         mt.0    Entry      >Example.calculateMessage()V bytecode method, this = 0xfff867f0
+18:50:33.723160948             0x19a00  j9trc_aux.0    Event       jstacktrace:
+18:50:33.723161678             0x19a00  j9trc_aux.1    Event       [1] Example.calculateMessage (Example.java:5)
+18:50:33.723162043             0x19a00  j9trc_aux.1    Event       [2] Example.calculateSum (Example.java:9)
+18:50:33.723162773             0x19a00  j9trc_aux.1    Event       [3] Example.main (Example.java:24)
+18:50:33.724018978             0x19a00         mt.6    Exit       <Example.calculateMessage()V bytecode method
+18:50:33.724019708             0x19a00         mt.6    Exit       <Example.calculateSum(II)I bytecode method
+18:50:33.724020802             0x19a00         mt.0    Entry      >Example.calculatediv(II)I bytecode method, this = 0xfff867f0
+18:50:33.724021167             0x19a00  j9trc_aux.0    Event       jstacktrace:
+18:50:33.724023722             0x19a00  j9trc_aux.1    Event       [1] Example.calculatediv (Example.java:18)
+18:50:33.724024817             0x19a00  j9trc_aux.1    Event       [2] Example.main (Example.java:25)
+18:50:33.724025547             0x19a00         mt.6    Exit       <Example.calculatediv(II)I bytecode method
+18:50:33.733048540             0x19a00         mt.9    Exit       <Example.main([Ljava/lang/String;)V bytecode static method
+18:50:33.733054014             0x19a00         dg.262  Debug       ***** Thread termination - trace purged *****

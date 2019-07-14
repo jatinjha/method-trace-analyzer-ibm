@@ -1,0 +1,15 @@
+Microsoft Windows [Version 10.0.17134.885]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\DELL\eclipse-workspace\Demo>javac Example.java
+
+C:\Users\DELL\eclipse-workspace\Demo>java Example
+Hope this is going to work
+sum is :- 30
+div is :- 1
+
+C:\Users\DELL\eclipse-workspace\Demo>javac Example1.java
+
+C:\Users\DELL\eclipse-workspace\Demo>java Example1
+
+C:\Users\DELL\eclipse-workspace\Demo>

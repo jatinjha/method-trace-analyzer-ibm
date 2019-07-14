@@ -1,0 +1,39 @@
+Microsoft Windows [Version 10.0.17134.885]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\DELL\eclipse-workspace\Demo>java -Xtrace:none -Xtrace:methods=Example,trigger=method{Example,jstacktrace},maximal=mt,output=ExampleOut.trc Example
+Hope this is going to work
+sum is :- 30
+div is :- 1
+
+C:\Users\DELL\eclipse-workspace\Demo>java -Xtrace:none -Xtrace:methods=Example1,trigger=method{Example1,jstacktrace},maximal=mt,output=Example1Out.trc Example1
+
+C:\Users\DELL\eclipse-workspace\Demo>java com.ibm.jvm.format.TraceFormat ExampleOut.trc ExampleTrace.log
+*** Starting data extraction from binary trace file(s) 
+*** Locating formatting template files
+*** Found C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-openj9\lib\J9TraceFormat.dat
+*** Found C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-openj9\lib\OMRTraceFormat.dat
+*** Extracting 1 buffers from ExampleOut.trc
+*** Sorting buffers
+*** Starting formatting of entries into text file ExampleTrace.log
+*** Number of traced threads = 1
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+*** Number of formatted tracepoints = 21
+*** Formatting complete
+*** Formatted output written to file: ExampleTrace.log
+
+C:\Users\DELL\eclipse-workspace\Demo>java com.ibm.jvm.format.TraceFormat Example1Out.trc Example1Trace.log
+*** Starting data extraction from binary trace file(s) 
+*** Locating formatting template files
+*** Found C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-openj9\lib\J9TraceFormat.dat
+*** Found C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-openj9\lib\OMRTraceFormat.dat
+*** Extracting 1 buffers from Example1Out.trc
+*** Sorting buffers
+*** Starting formatting of entries into text file Example1Trace.log
+*** Number of traced threads = 1
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+*** Number of formatted tracepoints = 16
+*** Formatting complete
+*** Formatted output written to file: Example1Trace.log
+
+C:\Users\DELL\eclipse-workspace\Demo>

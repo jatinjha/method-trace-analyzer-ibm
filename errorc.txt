@@ -1,0 +1,5 @@
+error: file not found: CompareLogFile.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+Error: Could not find or load main class CompareLogFile
+Caused by: java.lang.ClassNotFoundException: CompareLogFile

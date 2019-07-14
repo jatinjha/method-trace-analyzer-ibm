@@ -1,0 +1,4 @@
+javac Example.java
+java Example
+javac Example1.java
+java Example1

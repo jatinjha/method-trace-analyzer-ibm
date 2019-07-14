@@ -1,0 +1,4 @@
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Array index out of range: 10
+	at Example1.calculateMessage(Example1.java:6)
+	at Example1.calculateSum(Example1.java:12)
+	at Example1.main(Example1.java:27)
