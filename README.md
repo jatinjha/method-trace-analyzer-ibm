@@ -35,5 +35,11 @@ times each method is invoked. Comparative view in case of multiple files.
  
  6. ibm-project.pdf --> ppt for showing output of project
  
+ 7. Undertaking.pdf --> Documentation of Undertaking
+ 
+ 8. Video.mp4 --> Video showing implementation of functionalities
+ 
+ 9. Ideationdocument.pdf --> Documentation consisting of idea
+ 
  <h3>     Team Name:Akatsuki    </h3>
  <h3>     Team Details: Jatin Jha , Sakar Jain   </h3>
