@@ -33,7 +33,7 @@ times each method is invoked. Comparative view in case of multiple files.
  
  5. wagu --> provide classes for presenting data in tabular form on console
  
- 6. ibm_project.pdf --> ppt for showing output of project
+ 6. ibm-project.pdf --> ppt for showing output of project
  
  <h3>     Team Name:Akatsuki    </h3>
  <h3>     Team Details: Jatin Jha , Sakar Jain   </h3>
