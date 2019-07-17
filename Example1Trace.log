@@ -41,31 +41,31 @@ Sys Processor Info :
 Active Threads :
         0x19a00  main
 
-JVM started      : 20:58:06.071000000
+JVM started      : 06:45:56.883000000
 
-Last buffer write: 20:58:06.461100509
+Last buffer write: 06:45:57.400137554
 
-First tracepoint:  20:58:06.429676620
+First tracepoint:  06:45:57.360594250
 
-Last tracepoint :  20:58:06.461100145
+Last tracepoint :  06:45:57.400136098
 
 
                 Trace Formatted Data 
 
 J9 timer(UTC)        ThreadID               TP id     Type        TraceEntry 
-20:58:06.429682083            *0x19a00         mt.3    Entry      >Example1.main([Ljava/lang/String;)V bytecode static method
-20:58:06.429683175             0x19a00  j9trc_aux.0    Event       jstacktrace:
-20:58:06.429689002             0x19a00  j9trc_aux.1    Event       [1] Example1.main (Example1.java:26)
-20:58:06.429693008             0x19a00         mt.0    Entry      >Example1.calculateSum(II)I bytecode method, this = 0xfff868b0
-20:58:06.429693372             0x19a00  j9trc_aux.0    Event       jstacktrace:
-20:58:06.429694100             0x19a00  j9trc_aux.1    Event       [1] Example1.calculateSum (Example1.java:12)
-20:58:06.429694828             0x19a00  j9trc_aux.1    Event       [2] Example1.main (Example1.java:27)
-20:58:06.429695557             0x19a00  j9trc_aux.0    Event       jstacktrace:
-20:58:06.429695557             0x19a00         mt.0    Entry      >Example1.calculateMessage()V bytecode method, this = 0xfff868b0
-20:58:06.429696285             0x19a00  j9trc_aux.1    Event       [1] Example1.calculateMessage (Example1.java:5)
-20:58:06.429696649             0x19a00  j9trc_aux.1    Event       [2] Example1.calculateSum (Example1.java:12)
-20:58:06.429697378             0x19a00  j9trc_aux.1    Event       [3] Example1.main (Example1.java:27)
-20:58:06.429850327             0x19a00         mt.22   Exit      *<Example1.calculateMessage()V bytecode method, exception thrown
-20:58:06.429850691             0x19a00         mt.22   Exit      *<Example1.calculateSum(II)I bytecode method, exception thrown
-20:58:06.429851056             0x19a00         mt.25   Exit      *<Example1.main([Ljava/lang/String;)V bytecode static method, exception thrown
-20:58:06.461100145             0x19a00         dg.262  Debug       ***** Thread termination - trace purged *****
+06:45:57.360621542            *0x19a00         mt.3    Entry      >Example1.main([Ljava/lang/String;)V bytecode static method
+06:45:57.360623362             0x19a00  j9trc_aux.0    Event       jstacktrace:
+06:45:57.360635007             0x19a00  j9trc_aux.1    Event       [1] Example1.main (Example1.java:26)
+06:45:57.360643377             0x19a00         mt.0    Entry      >Example1.calculateSum(II)I bytecode method, this = 0xfff86890
+06:45:57.360644104             0x19a00  j9trc_aux.0    Event       jstacktrace:
+06:45:57.360645560             0x19a00  j9trc_aux.1    Event       [1] Example1.calculateSum (Example1.java:12)
+06:45:57.360646288             0x19a00  j9trc_aux.1    Event       [2] Example1.main (Example1.java:27)
+06:45:57.360647379             0x19a00         mt.0    Entry      >Example1.calculateMessage()V bytecode method, this = 0xfff86890
+06:45:57.360647743             0x19a00  j9trc_aux.0    Event       jstacktrace:
+06:45:57.360648471             0x19a00  j9trc_aux.1    Event       [1] Example1.calculateMessage (Example1.java:5)
+06:45:57.360649563             0x19a00  j9trc_aux.1    Event       [2] Example1.calculateSum (Example1.java:12)
+06:45:57.360650291             0x19a00  j9trc_aux.1    Event       [3] Example1.main (Example1.java:27)
+06:45:57.361117540             0x19a00         mt.22   Exit      *<Example1.calculateMessage()V bytecode method, exception thrown
+06:45:57.361118631             0x19a00         mt.22   Exit      *<Example1.calculateSum(II)I bytecode method, exception thrown
+06:45:57.361118995             0x19a00         mt.25   Exit      *<Example1.main([Ljava/lang/String;)V bytecode static method, exception thrown
+06:45:57.400136098             0x19a00         dg.262  Debug       ***** Thread termination - trace purged *****

@@ -41,36 +41,36 @@ Sys Processor Info :
 Active Threads :
         0x19a00  main
 
-JVM started      : 20:58:05.018000000
+JVM started      : 06:45:56.215000000
 
-Last buffer write: 20:58:05.989205978
+Last buffer write: 06:45:56.770051862
 
-First tracepoint:  20:58:05.965686474
+First tracepoint:  06:45:56.741157048
 
-Last tracepoint :  20:58:05.989205614
+Last tracepoint :  06:45:56.770051497
 
 
                 Trace Formatted Data 
 
 J9 timer(UTC)        ThreadID               TP id     Type        TraceEntry 
-20:58:05.965703973            *0x19a00         mt.3    Entry      >Example.main([Ljava/lang/String;)V bytecode static method
-20:58:05.965705796             0x19a00  j9trc_aux.0    Event       jstacktrace:
-20:58:05.965714910             0x19a00  j9trc_aux.1    Event       [1] Example.main (Example.java:23)
-20:58:05.965721837             0x19a00         mt.0    Entry      >Example.calculateSum(II)I bytecode method, this = 0xfff86880
-20:58:05.965722201             0x19a00  j9trc_aux.0    Event       jstacktrace:
-20:58:05.965723660             0x19a00  j9trc_aux.1    Event       [1] Example.calculateSum (Example.java:9)
-20:58:05.965724753             0x19a00  j9trc_aux.1    Event       [2] Example.main (Example.java:24)
-20:58:05.965725483             0x19a00         mt.0    Entry      >Example.calculateMessage()V bytecode method, this = 0xfff86880
-20:58:05.965725847             0x19a00  j9trc_aux.0    Event       jstacktrace:
-20:58:05.965726576             0x19a00  j9trc_aux.1    Event       [1] Example.calculateMessage (Example.java:5)
-20:58:05.965727305             0x19a00  j9trc_aux.1    Event       [2] Example.calculateSum (Example.java:9)
-20:58:05.965728399             0x19a00  j9trc_aux.1    Event       [3] Example.main (Example.java:24)
-20:58:05.967644914             0x19a00         mt.6    Exit       <Example.calculateMessage()V bytecode method
-20:58:05.967645643             0x19a00         mt.6    Exit       <Example.calculateSum(II)I bytecode method
-20:58:05.967647466             0x19a00         mt.0    Entry      >Example.calculatediv(II)I bytecode method, this = 0xfff86880
-20:58:05.967647830             0x19a00  j9trc_aux.0    Event       jstacktrace:
-20:58:05.967651476             0x19a00  j9trc_aux.1    Event       [1] Example.calculatediv (Example.java:18)
-20:58:05.967652934             0x19a00  j9trc_aux.1    Event       [2] Example.main (Example.java:25)
-20:58:05.967653663             0x19a00         mt.6    Exit       <Example.calculatediv(II)I bytecode method
-20:58:05.989200145             0x19a00         mt.9    Exit       <Example.main([Ljava/lang/String;)V bytecode static method
-20:58:05.989205614             0x19a00         dg.262  Debug       ***** Thread termination - trace purged *****
+06:45:56.741176040            *0x19a00         mt.3    Entry      >Example.main([Ljava/lang/String;)V bytecode static method
+06:45:56.741177867             0x19a00  j9trc_aux.0    Event       jstacktrace:
+06:45:56.741186997             0x19a00  j9trc_aux.1    Event       [1] Example.main (Example.java:23)
+06:45:56.741196859             0x19a00         mt.0    Entry      >Example.calculateSum(II)I bytecode method, this = 0xfff85b38
+06:45:56.741197589             0x19a00  j9trc_aux.0    Event       jstacktrace:
+06:45:56.741199415             0x19a00  j9trc_aux.1    Event       [1] Example.calculateSum (Example.java:9)
+06:45:56.741200876             0x19a00  j9trc_aux.1    Event       [2] Example.main (Example.java:24)
+06:45:56.741202337             0x19a00         mt.0    Entry      >Example.calculateMessage()V bytecode method, this = 0xfff85b38
+06:45:56.741202702             0x19a00  j9trc_aux.0    Event       jstacktrace:
+06:45:56.741204163             0x19a00  j9trc_aux.1    Event       [1] Example.calculateMessage (Example.java:5)
+06:45:56.741205624             0x19a00  j9trc_aux.1    Event       [2] Example.calculateSum (Example.java:9)
+06:45:56.741207085             0x19a00  j9trc_aux.1    Event       [3] Example.main (Example.java:24)
+06:45:56.743537983             0x19a00         mt.6    Exit       <Example.calculateMessage()V bytecode method
+06:45:56.743541636             0x19a00         mt.6    Exit       <Example.calculateSum(II)I bytecode method
+06:45:56.743545288             0x19a00         mt.0    Entry      >Example.calculatediv(II)I bytecode method, this = 0xfff85b38
+06:45:56.743546749             0x19a00  j9trc_aux.0    Event       jstacktrace:
+06:45:56.743558071             0x19a00  j9trc_aux.1    Event       [1] Example.calculatediv (Example.java:18)
+06:45:56.743559897             0x19a00  j9trc_aux.1    Event       [2] Example.main (Example.java:25)
+06:45:56.743561723             0x19a00         mt.6    Exit       <Example.calculatediv(II)I bytecode method
+06:45:56.770044923             0x19a00         mt.9    Exit       <Example.main([Ljava/lang/String;)V bytecode static method
+06:45:56.770051497             0x19a00         dg.262  Debug       ***** Thread termination - trace purged *****
